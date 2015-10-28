@@ -29,7 +29,7 @@ cmd:option('-sample',1,' 0 to use max at each timestep, 1 to sample at each time
 cmd:option('-primetext',"J'en suis fort ravi",'used as a prompt to "seed" the state of the LSTM using a given sequence, before we sample.')
 cmd:option('-length',800,'number of characters to sample')
 cmd:option('-temperature',1,'temperature of sampling')
-cmd:option('-gpuid','-1','which gpu to use. -1 = use CPU')
+cmd:option('-gpuid',-1,'which gpu to use. -1 = use CPU')
 cmd:option('-opencl',0,'use OpenCL (instead of CUDA)')
 cmd:option('-verbose',1,'set to 0 to ONLY print the sampled text, no diagnostics')
 cmd:text()
