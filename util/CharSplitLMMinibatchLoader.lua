@@ -11,7 +11,7 @@ function CharSplitLMMinibatchLoader.create(data_dir, batch_size, seq_length, spl
     local self = {}
     setmetatable(self, CharSplitLMMinibatchLoader)
 
-    local input_file = path.join('/Users/heri/Sites/char-rnn-master/data/molieres-complet/', 'input.txt')
+    local input_file = path.join('/Users/heri/Sites/litteraturenn/data/tinyshakespeare/', 'input.txt')
     local vocab_file = path.join(data_dir, 'vocab.t7')
     local tensor_file = path.join(data_dir, 'data.t7')
 

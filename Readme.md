@@ -5,7 +5,7 @@ This project is inspired from the DNN work in neural style. You can generate "ar
 
 **This project will research if you can generate litterature "art" in poetry and novel from previous author's work**
 
-## CASE 1 : Moliere
+## CASE 1 : Moliere (Theater)
 
 ```
 th moliere.lua cv/moliere.t7
@@ -48,21 +48,28 @@ However, even children will recognize it is not proper french.
 
 Results are thus negative
 
-## CASE 2 : PAUL VERLAINE
+## CASE 2 : PAUL VERLAINE (Poet)
 
 Paul Verlaine is a 19th century French surrealist poet.
 
-*Status: Model being trained*
+Sample generated ouput:
+
+```
+Mérat et moins Deroux)es.
+On celair escorphe et les ont où nos figleux,
+Riance en toutes les ailhessients.
+Et ne vigleme et qui je sais dirien incerse,
+Lointez et la chose et l'aire glein de sox
+Et de mon dormez, peil, et dirent font tenselle,
+La Avoit de la tière et fort aux funemelles.
+
+```
+
+Like Molière, this is based on the complete works of the author. The output could be interpreted as avant-garde poem. However it clearly suffers from lack of data.
 
 
-## CASE 3 : ANDRÉ BRETON
+## CASE 3 : ANDRÉ BRETON (Author, Poet)
 
 French Author
 
 *Status: Data Input being prepared*
-
-## CASE 4 : GUILLAUME APPOLLINAIRE
-
-French Author
-
-*Status: Data Input being gathered*
