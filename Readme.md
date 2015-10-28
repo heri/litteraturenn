@@ -8,10 +8,10 @@ This project is inspired from the DNN work in neural style. You can generate "ar
 ## CASE 1 : Moliere (Theater)
 
 ```
-th moliere.lua cv/moliere.t7
+th sample.lua cv/moliere.t7
 ```
 
-The output sounds and looks like old French from Moliere. It is elegant and one could try to make sense out of it:
+Sample output sounds and looks like old French from Molière. It is elegant and one could try to make sense out of it:
 
 ```
 Me quoi qu'il premente tous deux mise, ou de la mauvres.
@@ -52,6 +52,10 @@ Results are thus negative
 
 Paul Verlaine is a 19th century French surrealist poet.
 
+```
+th sample.lua cv/verlaine.t7
+```
+
 Sample generated ouput:
 
 ```
@@ -66,6 +70,8 @@ La Avoit de la tière et fort aux funemelles.
 ```
 
 Like Molière, this is based on the complete works of the author. The output could be interpreted as avant-garde poem. However it clearly suffers from lack of data.
+
+Results are neutral and could be reused for another project but unusable in production.
 
 
 ## CASE 3 : ANDRÉ BRETON (Author, Poet)
