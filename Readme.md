@@ -92,6 +92,19 @@ Results are slightly more satisfying than Paul Verlaine
 
 ## CASE 4 : VICTOR HUGO (Author)
 
-Hugo is a prolific french author
+Victor Hugo is a prolific and celebrated french author. Data set comes from the 1 to 5 tomes of "Les Misérables".
 
-*Status: Training data being gathered from Les Misérables*
+```
+th sample.lua cv/hugo.t7
+```
+
+Sample generated output:
+```
+Thénardier avait vaincu ses dernières partie. Les formes de fer reste la
+princesse, il fallait, qu’il aperçut à lui cela s’ouvrir, chose plus fermée et produit aux ailes aux proves, le feu, et son extrémité du vaisseau qui se fût la croissance, il sentait le port s’en allant. En général, seul apaléon ;
+et, par mort de se ruinelle :
+– Pourquoi ?
+– Mertez est-ce que vous avez vrai.
+```
+
+Apart from a couple of *weird* words, this is satisfying. It's also interesting to see Victor Hugo's preference for long sentences with multiple commas.
