@@ -74,8 +74,24 @@ Like Molière, this is based on the complete works of the author. The output cou
 Results are neutral and could be reused for another project but unusable in production.
 
 
-## CASE 3 : ANDRÉ BRETON (Author, Poet)
+## CASE 3 : CAMUS (Author)
 
-French Author
+French 20th century author:
 
-*Status: Data Input being prepared*
+```
+th sample.lua cv/camus.t7
+```
+
+Sample generated output:
+
+```
+Une église se dressait. Mais les hors, il les dirait plus de manches, et il fallut au bond de tout termin de l’affalmente et les familles, les mots humains des capéniques de ce que j’ai été aigue. J’aurais connu même ce que j’eusse pas escamment dans tous les curieuses mortes.
+```
+
+Results are slightly more satisfying than Paul Verlaine
+
+## CASE 4 : VICTOR HUGO (Author)
+
+Hugo is a prolific french author
+
+*Status: Training data being gathered from Les Misérables*
