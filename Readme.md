@@ -108,3 +108,7 @@ et, par mort de se ruinelle :
 ```
 
 Apart from a couple of *weird* words, this is satisfying. It's also interesting to see Victor Hugo's preference for long sentences with multiple commas.
+
+## Who is behind this
+
+Heri is a software engineer, photographer, father and Montréaler. Building in the open — see more projects at [studiozenkai.com](https://studiozenkai.com).
